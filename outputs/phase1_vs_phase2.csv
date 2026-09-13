@@ -1,0 +1,15 @@
+Metric,Phase 1,Phase 2
+Final confirmed cones,72,72
+Processing mode,Offline,Sequential replay / streaming-style processing
+Cone association,DBSCAN clustering,Incremental nearest-neighbor association
+Position estimation,Weighted centroid,Online weighted update
+Per-cone uncertainty,No,Yes
+Existence probability,No,Yes
+Ghost handling,Offline filtering,Online lifecycle management
+Prediction,No,Yes
+Fault/noise testing,No,Yes
+Multiple-condition testing,No,Yes
+Association rate,N/A,98.58%
+Mean update latency,N/A,0.1398 ms
+P95 update latency,N/A,0.2119 ms
+Maximum retained latency,N/A,1.3991 ms

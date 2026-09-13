@@ -1,0 +1,15 @@
+metric,value
+Total observations,9774.0
+Active cones,73.0
+Confirmed cones,72.0
+Tentative cones,0.0
+Ghost cones,1.0
+New cone states,139.0
+Successful associations,9635.0
+Association rate,0.9857785962758339
+Peak active states,76.0
+Promotions,72.0
+Demotions,66.0
+Mean latency (ms),0.1416592490768838
+Maximum latency (ms),1.940199999808101
+P95 latency (ms),0.21440500149765296

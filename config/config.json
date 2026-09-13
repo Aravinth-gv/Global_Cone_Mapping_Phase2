@@ -1,0 +1,14 @@
+{
+"association_gate_m":1.5,
+"initial_position_variance":0.25,
+"process_noise":0.01,
+"measurement_noise":0.04,
+"promotion_threshold":0.75,
+"demotion_threshold":0.20,
+"ghost_decay":0.995,
+"max_missed_updates":150,
+"prediction_enabled":true,
+"reassociation_gate_m":2.5,
+"min_confirmed_observations":3,
+"max_active_cones":100
+}

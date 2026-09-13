@@ -1,0 +1,5 @@
+test_name,observations,confirmed_cones,ghosts,association_rate,mean_latency_ms,p95_latency_ms
+Original,9774,72,1,0.9857785962758339,0.1426,0.2463
+Low Confidence,9774,72,1,0.9857785962758339,0.1474,0.2544
+Position Noise,9774,72,1,0.9857785962758339,0.142,0.2453
+Combined Noise,9774,72,1,0.9857785962758339,0.1417,0.2144
