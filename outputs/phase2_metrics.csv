@@ -10,6 +10,6 @@ Association rate,0.9857785962758339
 Peak active states,76.0
 Promotions,72.0
 Demotions,66.0
-Mean latency (ms),0.1416592490768838
-Maximum latency (ms),1.940199999808101
-P95 latency (ms),0.21440500149765296
+Mean latency (ms),0.13425063433731158
+Maximum latency (ms),1.3087999996059807
+P95 latency (ms),0.17729999990478973
