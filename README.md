@@ -322,6 +322,30 @@ Contains results from the multiple-condition validation experiments.
 
 Contains the comparison between the Phase 1 and Phase 2 approaches.
 
+## Real vs Ghost Confusion Matrix
+
+Phase 2 includes an observation-level real/ghost lifecycle evaluation using the ground-truth `label` field from the perception dataset.
+
+A `CONFIRMED` tracker state is treated as a real prediction, while `TENTATIVE` and `DEMOTED` states are treated as ghost predictions.
+
+| Actual / Predicted | Real | Ghost |
+|---|---:|---:|
+| Real | 9458 | 236 |
+| Ghost | 13 | 67 |
+
+### Classification Performance
+
+| Metric | Result |
+|---|---:|
+| Accuracy | 97.45% |
+| Precision | 99.86% |
+| Recall | 97.57% |
+| F1-score | 98.70% |
+
+The confusion matrix is an observation-level real/ghost lifecycle evaluation and is not a left/right cone-type classification.
+
+The generated confusion matrix files are available in the [`outputs`](./outputs/) directory.
+
 ## 17. Configuration
 
 Streaming parameters are stored in:
